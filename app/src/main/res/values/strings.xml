@@ -1,1 +1,189 @@
+<resources>
+    <string name="app_name">DualMapper</string>
+    <string name="accessibility_service_desc">Simulate screen touches for game assistance</string>
 
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="close">Close</string>
+    <string name="settings">Settings</string>
+    <string name="confirm">Confirm</string>
+    <string name="deny">Deny</string>
+
+    <string name="permission_status">Permission Status</string>
+    <string name="overlay_permission">Overlay Permission</string>
+    <string name="accessibility_service">Accessibility Service</string>
+    <string name="granted">✅ Granted</string>
+    <string name="not_granted">❌ Not Granted</string>
+    <string name="enabled">✅ Enabled</string>
+    <string name="not_enabled">❌ Not Enabled</string>
+
+    <string name="start_floating_service">Start Floating Panel</string>
+    <string name="stop_floating_service">Stop Floating Service</string>
+    <string name="open_accessibility_settings">Open Accessibility Settings</string>
+    <string name="floating_icon">Floating Icon</string>
+    <string name="change_icon_from_gallery">Change Icon from Gallery</string>
+    <string name="reset_default_icon">Reset Default Icon</string>
+    <string name="layout_presets">Layout Presets</string>
+    <string name="load_preset">Load Preset</string>
+    <string name="restore_backup">Restore Previous Layout</string>
+    <string name="wifi_direct_devices">Wi-Fi Direct Devices</string>
+    <string name="refresh_devices">Refresh Devices</string>
+    <string name="no_devices_found">No devices found, tap refresh</string>
+    <string name="tap_to_connect">Tap to connect</string>
+    <string name="key_mapping_switch">Enable External Key Mapping</string>
+    <string name="key_mapping_disabled_hint">Enable Accessibility Service first</string>
+    <string name="remote_mapping_mode">Remote Mapping Mode</string>
+    <string name="usage_guide">Usage Guide:\n1. Grant overlay and accessibility permissions\n2. Tap to open floating panel\n3. In game, tap floating button to map position\n4. Supports tap, swipe, long press</string>
+    <string name="icon_changed">Icon changed</string>
+    <string name="save_failed">Save failed</string>
+    <string name="storage_permission_required">Storage permission required to change icon</string>
+    <string name="reset_to_default">Reset to default</string>
+    <string name="preset_applied">Preset %s applied</string>
+    <string name="backup_restored">Previous layout restored</string>
+    <string name="connected_to">Connected to %s</string>
+    <string name="connection_status">Status</string>
+
+    <string name="connection_type">Connection Type</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="wifi_direct">Wi-Fi Direct</string>
+    <string name="lan">LAN</string>
+    <string name="remote">Remote</string>
+
+    <string name="record_mapping">Record Mapping</string>
+    <string name="current_action">Current Action: %s</string>
+    <string name="tap">Tap</string>
+    <string name="swipe">Swipe</string>
+    <string name="long_press">Long Press</string>
+    <string name="select_action_type">Select action type</string>
+    <string name="touch_screen_to_select">Touch screen to select position</string>
+    <string name="start_point_recorded">Start point recorded, swipe to end and lift finger</string>
+    <string name="position_recorded">Position recorded, lift finger to set duration</string>
+    <string name="swipe_recorded">Swipe recorded (duration %dms), ready to save</string>
+    <string name="duration_ms">Duration: %dms</string>
+    <string name="record_key">Record Key</string>
+    <string name="press_external_key">Press a key on external device</string>
+    <string name="key_recorded">Key recorded: %s</string>
+    <string name="no_key_recorded">No key recorded</string>
+    <string name="key_code">Key Code: %d</string>
+    <string name="unknown_key">Unknown Key</string>
+    <string name="record_key_only_mode">Key-only recording mode. Tap \"Record Key\" and press external key</string>
+    <string name="no_valid_touch">No valid touch action recorded</string>
+    <string name="save_success">Save successful</string>
+    <string name="player_1">P1 (Left Half)</string>
+    <string name="player_2">P2 (Right Half)</string>
+    <!-- 修复：添加玩家选择标签 -->
+    <string name="player_select">Player:</string>
+    <string name="touch_here_to_record">Touch here to start recording</string>
+
+    <string name="preset_fighting_name">Fighting Game Layout</string>
+    <string name="preset_fighting_desc">Classic 6-button layout</string>
+    <string name="preset_shooting_name">Shooting Game Layout</string>
+    <string name="preset_shooting_desc">Dual joystick + fire</string>
+    <string name="preset_fighting_p1p2">Fighting Layout (P1 Left / P2 Right)</string>
+
+    <string name="floating_service_running">Touch Mapping Running</string>
+    <string name="floating_service_desc">Tap floating window to record mapping</string>
+    <string name="stop">Stop</string>
+    <string name="new_key">New Key</string>
+    <string name="floating_click_toast">Floating window clicked</string>
+    <string name="layout_locked">Layout locked</string>
+    <string name="layout_unlocked">Layout unlocked</string>
+    <string name="switched_to">Switched to %s</string>
+    <string name="floating_not_shown">Floating window not shown, please start it first</string>
+    <string name="position_reset">Floating position reset</string>
+    <string name="reset_position">Reset Floating Position</string>
+
+    <string name="key_settings">Key Settings</string>
+    <!-- 滑块实际范围 0.0 ~ 1.0 -->
+    <string name="opacity">Opacity (0.0 = hidden, 1.0 = opaque)</string>
+    <string name="remap">Remap</string>
+    <string name="rerecord_key">Re-record Key</string>
+    <string name="change_icon">Change Icon</string>
+
+    <string name="tv_mode_settings">TV Mode Settings</string>
+    <string name="enter_edit_mode">Enter Edit Mode</string>
+    <string name="exit_edit_mode">Exit Edit Mode</string>
+    <string name="edit_mode_instruction">Edit Mode: Use D-Pad to move keys, Center to save</string>
+    <string name="apply_preset">Apply Preset</string>
+    <string name="export_layout">Export Layout</string>
+    <string name="import_layout">Import Layout</string>
+    <string name="global_opacity">Global Key Opacity</string>
+    <string name="export_success">Export successful</string>
+    <string name="import_success">Import successful</string>
+    <string name="import_failed">Import failed</string>
+    <string name="share_layout">Share Layout</string>
+
+    <string name="bluetooth_permission_required">Bluetooth permission required</string>
+    <string name="location_permission_required">Location permission required for scanning</string>
+    <string name="connecting">Connecting…</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="host_started">Host started\n%s</string>
+    <string name="host_failed">Host failed: %s</string>
+    <string name="enter_remote_address">Enter Remote Address</string>
+    <string name="address_format_hint">Format: IP:Port or domain:port</string>
+    <string name="example_address">e.g., 123.45.67.89:21000</string>
+    <string name="create_host">Create Host</string>
+    <string name="join_remote">Join Remote</string>
+    <string name="remote_connection">Remote Connection (Internet)</string>
+
+    <string name="accessibility_disabled">Accessibility service not enabled, cannot execute macro</string>
+    <string name="gesture_failed">Gesture execution failed, please check accessibility permission</string>
+    <string name="upnp_failed" formatted="false">UPnP failed, please manually forward port %d or use LAN address %s:%d</string>
+    <string name="public_address" formatted="false">Public Address: %s:%d</string>
+    <string name="lan_address" formatted="false">LAN Address: %s:%d</string>
+    <string name="network_error">Network error, please check connection</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="unknown_error">Unknown error, please retry</string>
+    <string name="invalid_layout_file">Invalid layout file</string>
+
+    <string name="category_gamepad">Gamepad</string>
+    <string name="category_keyboard">Keyboard</string>
+    <string name="category_remote">Remote</string>
+
+    <string name="guide_title">Quick Guide</string>
+    <string name="guide_step_overlay">1. Grant overlay permission</string>
+    <string name="guide_step_accessibility">2. Enable accessibility service</string>
+    <string name="guide_ready">✅ Ready! Tap to start floating panel</string>
+    <string name="go_to_grant">Grant</string>
+    <string name="go_to_enable">Enable</string>
+
+    <string name="cloud_layouts">Cloud Layouts</string>
+    <string name="upload_layout">Upload Layout</string>
+    <string name="layout_name">Layout Name</string>
+    <string name="layout_description">Description</string>
+    <string name="tags">Tags (comma separated)</string>
+    <string name="download">Download</string>
+    <string name="like">Like</string>
+    <string name="downloads">Downloads</string>
+    <string name="author">Author</string>
+
+    <string name="help_title">User Guide</string>
+    <string name="help_section_permissions">Permissions</string>
+    <string name="help_permissions_content">Grant overlay and accessibility permissions to enable the floating panel and key mapping.</string>
+    <string name="help_section_recording">Recording Mapping</string>
+    <string name="help_recording_content">Tap \'+\' on the floating window, select action type, touch screen to set position, and press an external key to bind.</string>
+    <string name="help_section_tv_mode">TV Mode</string>
+    <string name="help_tv_mode_content">On TV, press Menu key to open settings. In edit mode, use D-Pad to move keys.</string>
+    <string name="help_section_cloud">Cloud Layouts</string>
+    <string name="help_cloud_content">Upload your layout to share with others, or download popular community layouts.</string>
+
+    <string name="sim_key_a">A (29)</string>
+    <string name="sim_key_b">B (30)</string>
+    <string name="sim_key_x">X (51)</string>
+    <string name="sim_key_y">Y (52)</string>
+    <string name="sim_key_up">Up (19)</string>
+    <string name="sim_key_down">Down (20)</string>
+    <string name="sim_key_left">Left (21)</string>
+    <string name="sim_key_right">Right (22)</string>
+    <string name="sim_key_confirm">Confirm (66)</string>
+
+    <string name="reset_token_confirm_title">Reset Pairing Code</string>
+    <string name="reset_token_confirm_message">All current connections will be lost. You must share the new code to reconnect. Proceed?</string>
+    <string name="reset_token_done">Pairing code reset. Restart host to apply.</string>
+
+    <string name="floating_service_special_use_description">This service is used to display the floating overlay for key mapping. It must stay in the foreground to ensure immediate touch input processing while gaming.</string>
+    <string name="not_in_remote_mode">Not in remote connection mode</string>
+</resources>
