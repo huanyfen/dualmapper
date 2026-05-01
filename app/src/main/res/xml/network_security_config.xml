@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 全局禁止明文，确保公网通信安全 -->
+    <base-config cleartextTrafficPermitted="false" />
+
+    <!-- 允许局域网私有 IP 段的明文通信（UPnP、LAN 发现需要） -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.0.0/16</domain>
+        <domain includeSubdomains="true">10.0.0.0/8</domain>
+        <domain includeSubdomains="true">172.16.0.0/12</domain>
+    </domain-config>
+
+    <!-- 公网 IP 查询 API 强制使用 HTTPS -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="false">api.ipify.org</domain>
+    </domain-config>
+</network-security-config>
