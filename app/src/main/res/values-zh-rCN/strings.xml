@@ -1,0 +1,188 @@
+<resources>
+    <string name="app_name">灵犀映射</string>
+    <string name="accessibility_service_desc">用于模拟屏幕触摸，实现游戏辅助</string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="close">关闭</string>
+    <string name="settings">设置</string>
+    <string name="confirm">确认</string>
+    <string name="deny">拒绝</string>
+
+    <string name="permission_status">权限状态</string>
+    <string name="overlay_permission">悬浮窗权限</string>
+    <string name="accessibility_service">无障碍服务</string>
+    <string name="granted">✅ 已授予</string>
+    <string name="not_granted">❌ 未授予</string>
+    <string name="enabled">✅ 已启用</string>
+    <string name="not_enabled">❌ 未启用</string>
+
+    <string name="start_floating_service">开启悬浮窗映射面板</string>
+    <string name="stop_floating_service">关闭悬浮窗服务</string>
+    <string name="open_accessibility_settings">前往无障碍设置</string>
+    <string name="floating_icon">悬浮窗图标</string>
+    <string name="change_icon_from_gallery">从相册更换图标</string>
+    <string name="reset_default_icon">恢复默认图标</string>
+    <string name="layout_presets">布局预设</string>
+    <string name="load_preset">加载预设布局</string>
+    <string name="restore_backup">恢复之前的布局</string>
+    <string name="wifi_direct_devices">Wi-Fi Direct 设备</string>
+    <string name="refresh_devices">刷新设备</string>
+    <string name="no_devices_found">未发现设备，请点击刷新</string>
+    <string name="tap_to_connect">点击连接</string>
+    <string name="key_mapping_switch">启用外接设备按键映射</string>
+    <string name="key_mapping_disabled_hint">需要先启用无障碍服务才能使用按键映射</string>
+    <string name="remote_mapping_mode">远程映射模式</string>
+    <string name="usage_guide">使用说明：\n1. 授予悬浮窗和无障碍权限\n2. 点击开启悬浮窗\n3. 在游戏中点击悬浮按钮，选择映射位置\n4. 支持触摸点击、滑动、长按</string>
+    <string name="icon_changed">图标已更换</string>
+    <string name="save_failed">保存失败</string>
+    <string name="storage_permission_required">需要存储权限才能更换图标</string>
+    <string name="reset_to_default">已恢复默认图标</string>
+    <string name="preset_applied">已应用 %s</string>
+    <string name="backup_restored">已恢复之前布局</string>
+    <string name="connected_to">已连接到 %s</string>
+    <string name="connection_status">状态</string>
+
+    <string name="connection_type">连接方式</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="wifi_direct">Wi-Fi Direct</string>
+    <string name="lan">局域网</string>
+    <string name="remote">远程</string>
+
+    <string name="record_mapping">录制映射动作</string>
+    <string name="current_action">当前动作: %s</string>
+    <string name="tap">点击</string>
+    <string name="swipe">滑动</string>
+    <string name="long_press">长按</string>
+    <string name="select_action_type">请选择动作类型</string>
+    <string name="touch_screen_to_select">请触摸屏幕选择位置</string>
+    <string name="start_point_recorded">起点已记录，请滑动到终点并抬起手指</string>
+    <string name="position_recorded">位置已记录，抬起手指确定时长</string>
+    <string name="swipe_recorded">滑动已录制（时长 %dms），可保存</string>
+    <string name="duration_ms">时长: %dms</string>
+    <string name="record_key">录制按键</string>
+    <string name="press_external_key">请按下外接设备上的按键</string>
+    <string name="key_recorded">已记录按键: %s</string>
+    <string name="no_key_recorded">未录制按键</string>
+    <string name="key_code">按键码: %d</string>
+    <string name="unknown_key">未知按键</string>
+    <string name="record_key_only_mode">仅录制按键模式，请点击“录制按键”后按下外接设备按键</string>
+    <string name="no_valid_touch">未录制有效触摸动作</string>
+    <string name="save_success">保存成功</string>
+    <string name="player_1">P1（左半屏）</string>
+    <string name="player_2">P2（右半屏）</string>
+    <!-- 修复：添加玩家选择标签 -->
+    <string name="player_select">玩家：</string>
+    <string name="touch_here_to_record">触摸此处开始录制</string>
+
+    <string name="preset_fighting_name">格斗游戏布局</string>
+    <string name="preset_fighting_desc">经典六键布局</string>
+    <string name="preset_shooting_name">射击游戏布局</string>
+    <string name="preset_shooting_desc">双摇杆+射击</string>
+    <string name="preset_fighting_p1p2">格斗布局（P1左/P2右）</string>
+
+    <string name="floating_service_running">触摸映射运行中</string>
+    <string name="floating_service_desc">点击悬浮窗录制映射</string>
+    <string name="stop">停止</string>
+    <string name="new_key">新按键</string>
+    <string name="floating_click_toast">点击悬浮窗</string>
+    <string name="layout_locked">布局已锁定</string>
+    <string name="layout_unlocked">布局已解锁</string>
+    <string name="switched_to">已切换至 %s</string>
+    <string name="floating_not_shown">悬浮窗未显示，请先开启</string>
+    <string name="position_reset">悬浮窗位置已重置</string>
+    <string name="reset_position">重置悬浮窗位置</string>
+
+    <string name="key_settings">按键设置</string>
+    <!-- 滑块实际范围 0.0 ~ 1.0 -->
+    <string name="opacity">透明度（0.0=完全隐藏，1.0=不透明）</string>
+    <string name="remap">重新映射</string>
+    <string name="rerecord_key">重新录制按键</string>
+    <string name="change_icon">更换图标</string>
+
+    <string name="tv_mode_settings">电视模式设置</string>
+    <string name="enter_edit_mode">进入编辑模式</string>
+    <string name="exit_edit_mode">退出编辑模式</string>
+    <string name="edit_mode_instruction">编辑模式：方向键移动按键，确定键保存</string>
+    <string name="apply_preset">应用预设布局</string>
+    <string name="export_layout">导出布局</string>
+    <string name="import_layout">导入布局</string>
+    <string name="global_opacity">全局按键透明度</string>
+    <string name="export_success">导出成功</string>
+    <string name="import_success">导入成功</string>
+    <string name="import_failed">导入失败</string>
+    <string name="share_layout">分享布局</string>
+
+    <string name="bluetooth_permission_required">需要蓝牙权限</string>
+    <string name="location_permission_required">扫描需要位置权限</string>
+    <string name="connecting">连接中…</string>
+    <string name="connection_failed">连接失败</string>
+    <string name="disconnected">已断开</string>
+    <string name="host_started">主机已启动\n%s</string>
+    <string name="host_failed">启动失败: %s</string>
+    <string name="enter_remote_address">输入远程地址</string>
+    <string name="address_format_hint">格式: IP:端口 或 域名:端口</string>
+    <string name="example_address">例如: 123.45.67.89:21000</string>
+    <string name="create_host">创建主机</string>
+    <string name="join_remote">加入远程</string>
+    <string name="remote_connection">远程连接（跨互联网）</string>
+
+    <string name="accessibility_disabled">无障碍服务未启用，无法执行宏</string>
+    <string name="gesture_failed">手势执行失败，请检查无障碍权限</string>
+    <string name="upnp_failed" formatted="false">UPnP 失败，请手动映射端口 %d，或使用局域网地址 %s:%d</string>
+    <string name="public_address" formatted="false">公网地址: %s:%d</string>
+    <string name="lan_address" formatted="false">局域网地址: %s:%d</string>
+    <string name="network_error">网络错误，请检查连接</string>
+    <string name="permission_denied">权限不足，请授予必要权限</string>
+    <string name="unknown_error">未知错误，请重试</string>
+    <string name="invalid_layout_file">无效的布局文件</string>
+
+    <string name="category_gamepad">手柄</string>
+    <string name="category_keyboard">键盘</string>
+    <string name="category_remote">遥控器</string>
+
+    <string name="guide_title">新手引导</string>
+    <string name="guide_step_overlay">1. 授予悬浮窗权限</string>
+    <string name="guide_step_accessibility">2. 启用无障碍服务</string>
+    <string name="guide_ready">✅ 一切就绪，点击开启悬浮窗开始使用</string>
+    <string name="go_to_grant">去授权</string>
+    <string name="go_to_enable">去启用</string>
+
+    <string name="cloud_layouts">云端布局</string>
+    <string name="upload_layout">上传布局</string>
+    <string name="layout_name">布局名称</string>
+    <string name="layout_description">描述</string>
+    <string name="tags">标签（用逗号分隔）</string>
+    <string name="download">下载</string>
+    <string name="like">点赞</string>
+    <string name="downloads">下载次数</string>
+    <string name="author">作者</string>
+
+    <string name="help_title">使用帮助</string>
+    <string name="help_section_permissions">权限设置</string>
+    <string name="help_permissions_content">首次使用需授予悬浮窗和无障碍权限，才能正常使用映射功能。</string>
+    <string name="help_section_recording">录制映射</string>
+    <string name="help_recording_content">点击悬浮窗“+”添加按键，选择动作类型，触摸屏幕设定位置，再按下外设按键绑定。</string>
+    <string name="help_section_tv_mode">电视模式</string>
+    <string name="help_tv_mode_content">在电视上，悬浮窗自动隐藏，按遥控器菜单键唤出设置。编辑模式下用方向键移动按键。</string>
+    <string name="help_section_cloud">云端布局</string>
+    <string name="help_cloud_content">可上传当前布局至云端与他人分享，也可下载热门社区布局一键应用。</string>
+
+    <string name="reset_token_confirm_title">重置配对码</string>
+    <string name="reset_token_confirm_message">重置后现有连接将断开，需使用新配对码重新建立连接。确认重置？</string>
+    <string name="reset_token_done">配对码已重置，请重新启动主机</string>
+
+    <string name="sim_key_a">A (29)</string>
+    <string name="sim_key_b">B (30)</string>
+    <string name="sim_key_x">X (51)</string>
+    <string name="sim_key_y">Y (52)</string>
+    <string name="sim_key_up">上 (19)</string>
+    <string name="sim_key_down">下 (20)</string>
+    <string name="sim_key_left">左 (21)</string>
+    <string name="sim_key_right">右 (22)</string>
+    <string name="sim_key_confirm">确认 (66)</string>
+    <string name="floating_service_special_use_description">此服务用于显示悬浮窗以进行按键映射。必须保持在前台运行以确保游戏时即时处理触摸输入。</string>
+    <string name="not_in_remote_mode">未处于远程连接模式</string>
+</resources>
